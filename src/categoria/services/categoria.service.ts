@@ -39,7 +39,7 @@ export class CategoriaService {
   }
 
   async create(categoria: Categoria): Promise<Categoria> {
-    // opcional: aqui você poderia validar produtos associados
+   
     return await this.categoriaRepository.save(categoria);
   }
 
